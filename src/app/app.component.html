@@ -1,0 +1,11 @@
+<p appBasicHighlight>Style me green if you will</p>
+
+<p appBetterHighlight defaultColor="yellow" highlightColor="red">Show me a better way</p>
+<div *appUnless="showLine">
+  <p >A Test of Unless</p>
+  <p>Now is the time</p>
+</div>
+
+
+<p><button class="btn btn-primary" (click)="showLine = !showLine">Toggle Unless</button> </p>
+
